@@ -1,0 +1,42 @@
+1) In order: String, Integer, String, Float, Float
+
+2) A database would be used if an application/software requires data to persist
+   (i.e. exist) after a application process.
+
+3) SQL is specifically used for communicating with compatible databases as opposed
+   to other programming languages which can be used for in a variety of situations.
+
+4) At a high level, database values are mapped to a cell in a row and under a column
+   of a database table. The programmer chooses what type of data that column holds.
+   Each row acts as an entry with each column(if multiple) holding a value that corresponds
+   to it.
+
+5) Table: A section of a database that contains a collection of data organized in
+   rows with each row consisting of some X number of columns.
+
+   Row: A row is an entry in a database table.
+
+   Column: A column holds a property of a database entry(row).
+
+   Value: A value is the data held at a cell(i.e. where a row and column meet).
+
+6) String, Integer, Float.
+
+7) Query 1: I'm looking for the date and amount values from all payments.
+
+   Query 2: I'm looking for all amount values from payments where the amount is less
+   than 500.
+
+   Query 3: I'm looking for all columns from payments where the payee is "Mega Foods".
+
+8) SQL Query 1: SELECT email, signup
+                FROM users
+                WHERE name = "DeAndre Data"
+
+   SQL Query 2: SELECT userid
+                FROM users
+                WHERE email = "aleesia.algorithm@uw.edu"
+
+   SQL Query 2: SELECT *
+                FROM users
+                WHERE userid = 4
